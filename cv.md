@@ -27,6 +27,7 @@ __Skills__
 * _Basic skills of HTML, CSS, JS_
 * _Problem solving_
 * _Leadership_
+* _Googling_
 
 ```
 function multiply(a, b){
@@ -36,3 +37,4 @@ function multiply(a, b){
 __Languages__
 - Russian (_native_)
 - English (_B2_)
+- 
