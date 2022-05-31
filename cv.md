@@ -37,4 +37,4 @@ function multiply(a, b){
 __Languages__
 - Russian (_native_)
 - English (_B2_)
-- 
+- French (_basic_)
