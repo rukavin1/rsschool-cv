@@ -5,31 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
         <div class="container header__container">
             <div class="logo">
-                <img class="logo__img" src="assets/logo/logo.png" alt="logo">
+                <a href="#">
+                    <img class="logo__img" src="assets/logo/logo.png" alt="logo">
+                </a>
             </div>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item">Contact</li>
-                    <li class="nav__item">Job experience</li>
-                    <li class="nav__item">Education</li>
-                    <li class="nav__item">Skills</li>
-                    <li class="nav__item">Languages</li>
-                    <li class="nav__item">Credits</li>
+                    <li class="nav__item"><a href="#contact">Contact</a> </li>
+                    <li class="nav__item"><a href="#experience">Job experience</a></li>
+                    <li class="nav__item"><a href="#education">Education</a></li>
+                    <li class="nav__item"><a href="#skills">Skills</a></li>
+                    <li class="nav__item"><a href="#languages">Languages</a></li>
+                    <li class="nav__item"><a href="#code">Code</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main class="main">
-        <div class="container"></div>
+    <main>
+        <div class="container main__container">
+            <h1 class="title">Rustam Gilmutdinov aka Raymundas</h1>
+            <h2 class="subtitle">Frontend Jr.</h2>
+            <div class="personal__info">
+                <div class="contact" id="contact">
+                    <h2>
+                        Find <span class="span">me</span>?
+                    </h2>
+                    <p>Tashkent, Uzb</p>
+                    <p><a href="tel:+998931087926">Phone (TG)</a></p>
+                    <p><a href="mailto:gilmutdinov.media@gmail.com">Email</a></p>
+                    <p><a href="https://www.facebook.com/rustam.gilmutdinov">Facebook</a> <br> <a href="https://www.linkedin.com/in/%D1%80%D1%83%D1%81%D1%82%D0%B0%D0%BC-%D0%B3%D0%B8%D0%BB%D1%8C%D0%BC%D1%83%D1%82%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2-342b4a1a7/">LinkedIn</a> <br><a href="https://github.com/rukavin1/">Github</a></p>
+                </div>
+                <img src="assets/images/avatar.jpg" alt="ugly me" class="avatar">
+                <div class="skills" id="skills">
+                    <h2>
+                        What do I <span class="span">know</span>?
+                    </h2>
+                    <p>HTML & CSS</p>
+                    <p>Basic JS skills</p>
+                    <p>SASS</p>
+                    <p>Googling :))</p>
+                </div>
+            </div>
+            <a href="#add"><img class="arrow" src="assets/logo/arrow.svg" alt="arrow"></a>
+        </div>
+        <div class="additional__info" id="add">
+            <div class="container add__container">
+                <div class="languages" id="languages">Sprechen <span>talents</span>
+                    <p>Russian (native)</p>
+                    <p>English (B2)</p>
+                    <p>French (basic)</p>
+                    <iframe width="220" height="120" src="https://www.youtube.com/embed/bclZYyFHlmA?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="education" id="education">Edu <span>level</span>
+                    <p>current time - EPAM’s RS-School</p>
+                    <p>2016 - CA Media school at OSCE in Bishkek (Kyrgyzstan)</p>
+                    <p>2010 - 2012 - Master’s degree of Journalism at National University of Uzbekistan</p>
+                    <p>2006 - 2010 - Bachelor’s degree of the Russian Language at Uzbek State University of Foreign Languages</p>
+                </div>  
+                <div class="experience" id="experience">Job <span>experience</span>
+                    <p>since 2018 - freelance journalist for IWP</p>
+                    <p>2016 - 2018 - Correspondent at Centre1.com</p>
+                    <p>2012 - 2016 - Copywriter at 24smi.org</p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container footer__container">
+            <div class="logo">
+                <a href="#">
+                    <img class="logo__img" src="assets/logo/logo.png" alt="logo">
+                </a>
+            </div>
+            <p>2022</p>
+            <div class="github">
+                <a href="https://github.com/rukavin1/">
+                    <img class="github__logo" src="assets/logo/footer__logo.png" alt="logo">
+                </a>
+            </div>  
+            <div class="footer__logo">
+                <a href="https://rs.school/js/">
+                    <img class="rs__logo" src="assets/logo/logo_rs.svg" alt="logo">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
