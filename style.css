@@ -190,3 +190,14 @@ span {
   width: 120px;
   height: 120px;
 }
+
+.github__logo {
+  border: 1px solid rgb(78, 75, 75);
+  border-radius: 50%;
+}
+
+.final__info {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
