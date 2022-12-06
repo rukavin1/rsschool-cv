@@ -1,4 +1,203 @@
-<style>
-body {
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-</style>
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Zen Dots', cursive;
+  width: 1360px;
+  margin: 0 auto;
+  color: #afa2a2;
+  background-color: #2B0F0F;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #2B0F0F;
+  color: inherit;
+}
+
+.header__container {
+  display: flex;
+}
+
+.logo__img {
+  width: 250px;
+  height: 180px;
+}
+
+nav {
+  margin-top: 80px;  
+}
+
+li {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+li:hover {
+  color: rgb(139, 36, 36);
+  transition: 0.5s;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.main__container {
+  width: 1360px;
+  background-image: url(assets/images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  position: relative;
+}
+
+.title,
+.subtitle {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.personal__info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.avatar {
+  width: 350px;
+  height: 250px;
+  border-radius: 60% 20% / 30% 20%;
+}
+
+.avatar:hover {
+  transform: scale(1.1); 
+  transition: 0.7s;
+}
+
+.contact p,
+.skills p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+span {
+  color: rgb(139, 36, 36);
+}
+
+.skills p {
+  text-align: end;
+}
+
+.contact p:hover,
+.skills p:hover {
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.4s; 
+}
+
+.arrow {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 50px;
+  left: 48%;
+}
+
+.arrow:hover {
+  width: 130px;
+  height: 130px;
+  transition: 0.3s;
+}
+
+.additional__info {
+  background-color: #000000;
+}
+
+.languages,
+.education,
+.experience {
+  padding-top: 45px;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.add__container {
+  display: flex;
+}
+
+
+.languages {
+  margin-left: 120px;
+}
+
+.languages p,
+.education p,
+.experience p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.languages p:hover,
+.education p:hover,
+.experience p:hover {
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+.education {
+  text-align: center;
+}
+
+.experience {
+  text-align: end;
+  margin-right: 120px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github__logo,
+.rs__logo {
+  width: 120px;
+  height: 120px;
+}
+
+.github__logo {
+  border: 1px solid rgb(78, 75, 75);
+  border-radius: 50%;
+}
+
+.final__info {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
