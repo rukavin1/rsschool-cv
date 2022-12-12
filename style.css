@@ -8,10 +8,11 @@
 
 body {
   font-family: 'Zen Dots', cursive;
-  width: 1360px;
+  max-width: 1360px;
   margin: 0 auto;
   color: #afa2a2;
   background-color: #2B0F0F;
+  overflow-x: hidden;
 }
 
 a {
@@ -20,7 +21,7 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 88%;
   margin: 0 auto;
 }
 
