@@ -115,8 +115,8 @@ span {
   text-align: end;
 }
 
-.contact p:hover,
-.skills p:hover {
+.contact__list:hover,
+.skills__list:hover {
   font-size: 18px;
   font-weight: 500;
   transition: 0.4s; 
