@@ -54,6 +54,10 @@ li:hover {
   transition: 0.5s;
 }
 
+.socialMedia a:hover {
+  color: #fff;
+}
+
 ul {
   display: flex;
   justify-content: center;
@@ -115,7 +119,6 @@ span {
   text-align: end;
 }
 
-.contact__list:hover,
 .skills__list:hover {
   font-size: 18px;
   font-weight: 500;
@@ -166,13 +169,6 @@ span {
   margin-top: 10px;
 }
 
-.languages p:hover,
-.education p:hover,
-.experience p:hover {
-  font-size: 16px;
-  transition: 0.4s;
-}
-
 .education {
   text-align: center;
 }
@@ -197,6 +193,10 @@ span {
 .github__logo {
   border: 1px solid rgb(78, 75, 75);
   border-radius: 50%;
+}
+
+.github__logo:hover {
+  background-color: #fff;
 }
 
 .final__info {
